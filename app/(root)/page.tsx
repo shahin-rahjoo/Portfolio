@@ -1,8 +1,13 @@
-export const metadata ={
-  title: 'Home'
-}
+export const metadata = {
+  title: "Home",
+};
+import HeroSection from "@/components/hero-section";
 const Homepage = () => {
-  return <>Home Page</>;
+  return (
+    <div>
+      <HeroSection />
+    </div>
+  );
 };
 
 export default Homepage;
