@@ -7,7 +7,7 @@ import { SunIcon, MoonIcon } from "lucide-react";
 const ModeToggle = () => {
   const { theme, setTheme } = useTheme();
   return (
-    <div>
+    <div className="hidden md:flex">
       <Button
         variant="ghost"
         size="icon"

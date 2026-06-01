@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-const Navigation = () => {
+const Navigation = ({className}: {className?: string}) => {
   return (
-    <nav className="">
+    <nav className={className}>
       <Button asChild variant="ghost">
         <Link href="/projects">Projects</Link>
       </Button>
