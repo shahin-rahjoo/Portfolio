@@ -2,7 +2,6 @@ import { Menu } from "lucide-react";
 import Navigation from "./navigation";
 import Image from "next/image";
 import { APP_NAME } from "@/lib/constants";
-import { Button } from "@/components/ui/button";
 
 import {
   Sheet,
@@ -35,8 +34,8 @@ const MobileMenu = () => {
           <SheetDescription className="sr-only">
             Navigation menu for mobile application
           </SheetDescription>
-          <SheetClose >
-            <Button className="self-center mt-4 w-24 bg-orange-500">Close</Button>
+          <SheetClose className="self-center mt-4 w-full p-2 rounded-2xl bg-orange-500">
+            Close
           </SheetClose>
         </SheetContent>
       </Sheet>

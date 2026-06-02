@@ -1,3 +1,6 @@
+export const metadata = {
+  title: "Projects",
+};
 const Projects = () => {
   return <div className="wrapper">projects page</div>;
 };
