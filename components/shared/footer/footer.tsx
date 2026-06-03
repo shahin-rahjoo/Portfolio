@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className=" w-full">
       <div className="wrapper flex-between flex-col md:flex-row py-6 gap-4">
-        <p className=" text-xl">
+        <p>
           Created By <span className="font-bold ">SHAHIN RAHJOO.</span>{" "}
           {currentYear}
         </p>

@@ -7,26 +7,32 @@ const Information = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           <div className="flex flex-col justify-between bg-zinc-900 p-4 rounded-4xl h-44">
             <p>
+              <span className="font-bold text-2xl md:text-2xl text-orange-400">
+                Experience:
+              </span>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Blanditiis, porro. lorem29
+              Blanditiis,
             </p>
           </div>
 
           <div className="flex flex-col justify-between bg-zinc-900 p-4 rounded-4xl h-44">
             <p>
+              <span className="font-bold text-2xl md:text-2xl text-orange-400">
+               Projects:
+              </span>
+             
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Blanditiis, porro. lorem29
+              
             </p>
           </div>
 
           <div className="flex flex-col justify-between bg-zinc-900 p-4 rounded-4xl h-44 w-full sm:col-span-2">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Blanditiis, porro. lorem29 Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Similique a alias recusandae reprehenderit
-              accusantium quia? Minima id rem voluptate aliquam. Eligendi
-              asperiores ad natus eius. Repellendus eligendi ullam illum
-              nesciunt?lorem40
+              <span className="font-bold text-2xl md:text-2xl text-orange-400">
+                Education:
+              </span>
+              Lorem ipsum dolor sit amet consectetur Blanditiis, porro. lorem29
+              Lorem ipsum dolor sit amet, consectetur adip
             </p>
           </div>
         </div>
