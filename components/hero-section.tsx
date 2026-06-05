@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <section className="relative w-full min-h-[80vh] bg-[url('/images/grid.svg')] bg-center ">
+    <section className="relative w-full min-h-[80vh] bg-[url('/images/grid-repeat.svg')] bg-center ">
       <div className="w-full max-w-7xl mx-auto px-6 min-h-[80vh] flex items-center justify-center">
         <div className="w-full max-w-3xl text-center">
           <h1 className="font-bold text-2xl md:text-4xl lg:text-5xl">

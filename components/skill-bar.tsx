@@ -14,7 +14,7 @@ const SkillBar = () => {
         <div
           key={skill.name}
           title={skill.name}
-          className={`h-16 w-full bg-contain bg-no-repeat bg-center transition-all ${skill.showMobile ? "block" : "hidden md:block"}`}
+          className={`h-16 mt-10 w-full bg-contain bg-no-repeat bg-center transition-all ${skill.showMobile ? "block" : "hidden md:block"}`}
           style={{ backgroundImage: `url('${skill.src}')` }}
         />
       ))}

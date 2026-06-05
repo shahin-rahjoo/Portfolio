@@ -46,7 +46,6 @@ const AboutMe = () => {
             iste eum sed totam sint magni beatae impedit officia atque expedita
             itaque. Quae sit perspiciatis quaerat modi nobis, adipisci odio
             iure, accusamus nostrum nisi assumenda similique animi possimus
-          
           </p>
         </div>
       </div>
@@ -69,7 +68,8 @@ const AboutMe = () => {
               alt={techStack.name}
               width={128}
               height={128}
-              className="h-16 sm:h-20 md:h-24 w-auto object-contain"
+              className="w-16 sm:w-20 md:w-24  object-contain"
+              style={{ height: "auto" }}
             />
           </div>
         ))}
