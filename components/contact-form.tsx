@@ -19,7 +19,6 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import {
   Field,
-  FieldDescription,
   FieldError,
   FieldGroup,
   FieldLabel,
@@ -48,7 +47,7 @@ export function ContactForm() {
     },
   });
   async function onSubmit(data: FormValue) {
-   await toast.promise(
+    await toast.promise(
       fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -69,8 +68,8 @@ export function ContactForm() {
   return (
     <Card className="w-full max-w-lg mx-auto">
       <CardHeader>
-        <CardTitle>Contact</CardTitle>
-        <CardDescription>Feel free to contact me</CardDescription>
+        <CardTitle className="font-bold">Contact:</CardTitle>
+        <CardDescription>I Would be Happy to Hear From You!</CardDescription>
       </CardHeader>
       <CardContent>
         <form id="contact-form" onSubmit={form.handleSubmit(onSubmit)}>
@@ -157,7 +156,7 @@ export function ContactForm() {
                     aria-invalid={fieldState.invalid}
                     className="min-h-30"
                   />
-                  <FieldDescription>Minimum 2 characters</FieldDescription>
+
                   {fieldState.invalid && (
                     <FieldError errors={[fieldState.error]} />
                   )}
