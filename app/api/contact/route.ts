@@ -7,8 +7,8 @@ export async function POST(request: Request) {
   const { name, lastName, email, subject, message } = await request.json();
 
   const { error } = await resend.emails.send({
-    from: "Contact Form <onboarding@resend.dev>", // use resend's test address until you verify your domain
-    to: "shahin.rahjoo2000@gmail.com", // ← your real email here
+    from: "Contact Form <onboarding@resend.dev>",
+    to: "shahin.rahjoo2000@gmail.com",
     subject: subject,
     html: `
       <p><strong>From:</strong> ${name} ${lastName} (${email})</p>

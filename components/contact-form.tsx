@@ -48,7 +48,7 @@ export function ContactForm() {
     },
   });
   async function onSubmit(data: FormValue) {
-    await toast.promise(
+   await toast.promise(
       fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
