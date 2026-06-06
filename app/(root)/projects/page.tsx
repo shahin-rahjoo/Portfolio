@@ -2,7 +2,11 @@ export const metadata = {
   title: "Projects",
 };
 const Projects = () => {
-  return <div className="wrapper">projects page</div>;
+  return (
+    <div className="flex min-h-screen items-center justify-center">
+      Projects Will Be Apeared Here Soon...
+    </div>
+  );
 };
 
 export default Projects;
