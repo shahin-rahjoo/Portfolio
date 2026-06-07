@@ -40,8 +40,8 @@ const Information = () => {
             width={400}
             height={400}
             priority={true}
-            alt="Shahin's picture"
-            title="Shahin's picture"
+            alt="info picture"
+            title="Info picture"
             className="w-full max-w-sm h-auto object-cover rounded-4xl"
           />
         </div>
