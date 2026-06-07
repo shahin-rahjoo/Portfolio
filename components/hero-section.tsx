@@ -9,11 +9,15 @@ const HeroSection = () => {
               QA Engineer
             </span>
           </h1>
-
           <p className="mx-auto max-w-2xl pt-6 text-sm md:text-lg">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
             inventore animi quae repudiandae perspiciatis dignissimos debitis ut
-            amet ab molestiae!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            commodi suscipit culpa provident accusantium soluta rerum doloremque
+            adipisci quo inventore, quam odio repudiandae illo enim recusandae
+            velit assumenda incidunt earum laudantium? Nostrum, consectetur
+            aperiam fuga provident odit earum suscipit nihil dolorum natus nobis
+          
           </p>
         </div>
       </div>

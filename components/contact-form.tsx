@@ -68,7 +68,7 @@ export function ContactForm() {
   return (
     <Card className="w-full max-w-lg mx-auto">
       <CardHeader>
-        <CardTitle className="font-bold">Contact:</CardTitle>
+        <CardTitle className="font-bold">Contact</CardTitle>
         <CardDescription>I Would be Happy to Hear From You!</CardDescription>
       </CardHeader>
       <CardContent>

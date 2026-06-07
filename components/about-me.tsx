@@ -4,6 +4,8 @@ export const metadata = {
 };
 const AboutMe = () => {
   const techStacks = [
+    { name: "HTML", src: "/images/html.svg"},
+    { name: "CSS", src: "/images/css.svg"},
     { name: "JavaScript", src: "/images/javascript.svg" },
     { name: "TypeScript", src: "/images/typescript.svg" },
     { name: "React", src: "/images/reactjs.svg" },
