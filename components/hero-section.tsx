@@ -17,7 +17,6 @@ const HeroSection = () => {
             adipisci quo inventore, quam odio repudiandae illo enim recusandae
             velit assumenda incidunt earum laudantium? Nostrum, consectetur
             aperiam fuga provident odit earum suscipit nihil dolorum natus nobis
-          
           </p>
         </div>
       </div>
