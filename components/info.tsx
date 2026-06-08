@@ -10,9 +10,18 @@ const Information = () => {
               <span className="font-bold text-xl text-orange-400">
                 Experience:
               </span>{" "}
-              I worked with the Football360 team as a frontend developer and QA
-              engineer, where I gained hands-on experience building, testing,
-              and improving real user-facing features.
+              I worked with the{" "}
+              <a
+                href="https://football360.ir/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-orange-400 underline underline-offset-2 hover:text-orange-500 transition-colors"
+              >
+                Football360
+              </a>{" "}
+              team as a frontend developer and QA engineer, where I gained
+              hands-on experience building, testing, and improving real
+              user-facing features.
             </p>
           </div>
 
@@ -22,8 +31,8 @@ const Information = () => {
                 Projects:
               </span>{" "}
               I build side projects to learn and explore new technologies.
-              Crypto dashboard, e-commerce platform etc. With a focus on
-              testing and real usability.
+              Crypto dashboard, e-commerce platform etc. With a focus on testing
+              and real usability.
             </p>
           </div>
 

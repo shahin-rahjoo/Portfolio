@@ -54,7 +54,7 @@ const AboutMe = () => {
 
       <div className="mt-10 flex justify-center px-4">
         <p className="text-center font-bold text-xl sm:text-2xl">
-          Some of the tech stacks that I worked with
+          Some Of The Tech Stacks That I Worked With
         </p>
       </div>
 
