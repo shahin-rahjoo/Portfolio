@@ -6,14 +6,17 @@ const HeroSection = () => {
       <div className="w-full max-w-7xl mx-auto px-6 py-16 flex flex-col-reverse items-center gap-12 lg:flex-row lg:justify-between">
         <div className="w-full max-w-xl text-center lg:text-left">
           <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl">
-            Frontend developer &{" "}
-            <span className="bg-linear-to-r from-orange-400 to-orange-800 bg-clip-text text-transparent">
-              QA Engineer
+            <span className="block">Hi There, I&apos;m Shahin,</span>
+            <span className="block">
+              A Frontend Developer &{" "}
+              <span className="bg-linear-to-r from-orange-400 to-orange-800 bg-clip-text text-transparent">
+                QA Engineer
+              </span>
             </span>
           </h1>
           <p className="pt-6 text-base md:text-lg">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
-            inventore animi quae repudiandae perspiciatis dignissimos debitis.
+            I love taking on new challenges, solving problems, and testing
+            everything. Especially the world. Because why not?
           </p>
         </div>
 

@@ -1,3 +1,6 @@
+export const metadata = {
+  title: "Contact",
+};
 import { ContactForm } from "@/components/contact-form";
 const ContactPage = () => {
   return (

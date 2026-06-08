@@ -5,31 +5,36 @@ const Information = () => {
     <section>
       <div className="w-full max-w-7xl mx-auto px-6 py-16 mt-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center rounded-4xl">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-          <div className="flex flex-col justify-between bg-background border border-border p-4 rounded-4xl h-44">
+          <div className="flex flex-col justify-between bg-background border border-border p-4 rounded-4xl min-h-44">
             <p className="text-foreground">
-              <span className="font-bold text-2xl text-orange-400">
+              <span className="font-bold text-xl text-orange-400">
                 Experience:
               </span>{" "}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Blanditiis,
+              I worked with the Football360 team as a frontend developer and QA
+              engineer, where I gained hands-on experience building, testing,
+              and improving real user-facing features.
             </p>
           </div>
 
-          <div className="flex flex-col justify-between bg-background border border-border p-4 rounded-4xl h-44">
+          <div className="flex flex-col justify-between bg-background border border-border p-4 rounded-4xl min-h-44">
             <p className="text-foreground">
-              <span className="font-bold text-2xl text-orange-400">
+              <span className="font-bold text-xl text-orange-400">
                 Projects:
               </span>{" "}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              I build side projects to learn and explore new technologies.
+              Crypto dashboard, e-commerce platform etc. With a focus on
+              testing and real usability.
             </p>
           </div>
 
-          <div className="flex flex-col justify-between bg-background border border-border p-4 rounded-4xl h-44 w-full sm:col-span-2">
+          <div className="flex flex-col justify-between bg-background border border-border p-4 rounded-4xl min-h-44 w-full sm:col-span-2">
             <p className="text-foreground">
-              <span className="font-bold text-2xl text-orange-400">
+              <span className="font-bold text-xl text-orange-400">
                 Education:
               </span>{" "}
-              Lorem ipsum dolor sit amet consectetur Blanditiis, porro.
+              I&apos;m currently studying for a master&apos;s degree in
+              Usability Engineering at Rhine-Waal University in Germany and hold
+              a bachelor&apos;s degree in Computer Engineering.
             </p>
           </div>
         </div>
@@ -41,7 +46,6 @@ const Information = () => {
             height={400}
             priority={true}
             alt="info picture"
-            title="Info picture"
             className="w-full max-w-sm h-auto object-cover rounded-4xl"
           />
         </div>
