@@ -21,9 +21,10 @@ const HeroSection = () => {
           <Image
             src="/images/shahin2.png"
             alt="Shahin Rahjoo"
+            title="This Is Me"
             width={500}
             height={500}
-            priority
+            priority={true}
             className="w-full h-auto rounded-3xl"
           />
         </div>

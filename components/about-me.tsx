@@ -27,8 +27,8 @@ const AboutMe = () => {
             height={300}
             alt="my picture"
             title="Shahin's Pic"
-            priority
-            className="w-56 sm:w-64 md:w-72 max-w-sm h-auto"
+            priority={true}
+            className="w-56 sm:w-64 md:w-72 rounded-3xl max-w-sm h-auto"
           />
         </div>
 
@@ -70,7 +70,7 @@ const AboutMe = () => {
               alt={techStack.name}
               width={128}
               height={128}
-              className="w-16 sm:w-20 md:w-24  object-contain"
+              className="w-16 sm:w-20 md:w-24 object-contain"
               style={{ height: "auto" }}
             />
           </div>

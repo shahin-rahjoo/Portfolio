@@ -19,7 +19,7 @@ const skills = [
 const SkillBar = () => {
   return (
     <div className="w-full py-10">
-      <Marquee speed={50} gradient={false} pauseOnHover>
+      <Marquee speed={60} gradient={false} pauseOnHover>
         {skills.map((skill) => (
           <div
             key={skill.name}
